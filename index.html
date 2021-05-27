@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="myFirstApp">
+  <head>
+    <meta charset="utf-8">
+    <<script src="angular.min.js"></script>
+    <<script src="app.js"></script>
+    <title>Maa Kali Coald Traders</title>
+  </head>
+  <body>
+    <h1>Coal Shop that caters to all your energy needs</h1>
+      <div class="" id="nameCalculator" ng-controller="MyFirstController">
+          <div class="">
+            Your name: <input type="text" id="name" ng-model="fNo" ng-keyup="displayNumeric()">
+          Your name: <input type="text" id="name" ng-model="sNo" ng-keyup="displayNumeric()">
+        </div>
+          <div class="" id="output" >
+              The sum of {{fNo}} and {{sNo}} is: {{totalValue}}
+          </div>
+      </div>
+  </body>
+</html>
